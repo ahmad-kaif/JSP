@@ -428,3 +428,6 @@
 24-Apr-2025 12:03:22.040 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [300] milliseconds
 Output from System.out
 Output from System.out
+Output from System.out
+24-Apr-2025 12:42:33.767 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faizan/Desktop/JSP/tomcat/webapps/simpleForm]
+24-Apr-2025 12:42:33.792 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faizan/Desktop/JSP/tomcat/webapps/simpleForm] has finished in [25] ms

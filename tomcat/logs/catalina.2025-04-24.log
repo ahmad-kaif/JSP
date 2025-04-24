@@ -426,3 +426,5 @@
 24-Apr-2025 12:03:22.032 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faizan/Desktop/JSP/tomcat/webapps/host-manager] has finished in [8] ms
 24-Apr-2025 12:03:22.034 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 24-Apr-2025 12:03:22.040 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [300] milliseconds
+24-Apr-2025 12:42:33.767 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faizan/Desktop/JSP/tomcat/webapps/simpleForm]
+24-Apr-2025 12:42:33.792 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faizan/Desktop/JSP/tomcat/webapps/simpleForm] has finished in [25] ms

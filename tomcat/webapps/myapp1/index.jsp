@@ -3,6 +3,9 @@
 <body>
     <h1>Hello from JSP on Mac M1!</h1>
     <p>Current time: <%= new java.util.Date() %></p>
-    <p>Helloooo :: <% System.out.println("Output from System.out"); %></p>
+    <% 
+        String name = "Ahmad";
+        out.println("<p>Welcome, " + name + "!</p>");
+    %>
 </body>
 </html>
