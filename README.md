@@ -1,20 +1,24 @@
-# JSP - Java Server Pages
+# JSP
 
-# Requirements
-1. Java(jdk)
-2. apache tomcat
+## JSP lets you embed Java code into HTML pages. It runs on the server using Apache Tomcat, and generates HTML to send to the browser.
 
-# Starting up
 
-1. Go to you apache tomcat path in terminal
-2. Starting apache tomcat server
-    1. ``` cd bin ```
-    2. To run - ```  ./startup.sh``` (if in mac, first run ```chmod +x *.sh```)
-    3. go to ```http://localhost:8080 ``` - > it shoud bu ruuning
-    4. to stop - ```./shutdown.sh```
+## Basic Structure of JSP
+```bash
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Hello JSP</title>
+</head>
+<body>
+    <h1>Hello, JSP World!</h1>
+    
+    <%
+        // This is a scriptlet: you can write Java code here
+        String name = "Faizan";
+        out.println("<p>Welcome, " + name + "!</p>");
+    %>
+</body>
+</html>
 
-3. Making your first JSP Program
-    1. ``` cd webapps```
-    2. Create any folder say ```myapp``` and ```cd myapp```
-    3. Inside that folder create ```index.jsp```
-    4. go to ``` http://localhost:8080/myapp1/index.jsp```
+```
