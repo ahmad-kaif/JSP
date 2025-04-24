@@ -428,3 +428,10 @@
 24-Apr-2025 12:03:22.040 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [300] milliseconds
 24-Apr-2025 12:42:33.767 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faizan/Desktop/JSP/tomcat/webapps/simpleForm]
 24-Apr-2025 12:42:33.792 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faizan/Desktop/JSP/tomcat/webapps/simpleForm] has finished in [25] ms
+24-Apr-2025 12:55:34.323 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faizan/Desktop/JSP/tomcat/webapps/formValidation]
+24-Apr-2025 12:55:34.349 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faizan/Desktop/JSP/tomcat/webapps/formValidation] has finished in [27] ms
+24-Apr-2025 12:56:04.880 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/simpleForm]
+24-Apr-2025 12:56:04.906 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faizan/Desktop/JSP/tomcat/webapps/practice]
+24-Apr-2025 12:56:04.918 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faizan/Desktop/JSP/tomcat/webapps/practice] has finished in [13] ms
+24-Apr-2025 12:56:15.434 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/myapp1]
+24-Apr-2025 12:56:15.952 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/formValidation]
